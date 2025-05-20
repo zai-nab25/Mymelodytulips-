@@ -1,18 +1,59 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>mymelodytulips</title>
+    <title>mymelodytulips Shop</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <header>
-        <img src="logo.png" alt="mymelodytulips Logo" class="logo">
+        <img src="logo.png" class="logo" alt="logo">
         <h1>mymelodytulips</h1>
-        <p>Cute photocards and more for K-pop & BL lovers, shipped worldwide</p>
+        <p>Cute photocards and more for K-pop & BL lovers — shipped worldwide</p>
+        <a href="cart.html" class="cart-btn">View Cart</a>
     </header>
     <main>
-        <p>Our shop is coming soon! Stay tuned.</p>
+        <h2>Shop Photocards</h2>
+        <div class="products">
+            <div class="product">
+                <img src="jungkook.jpg" alt="Jungkook Dreamy Set">
+                <h3>Jungkook Dreamy Set</h3>
+                <p>$5</p>
+                <button onclick="addToCart('Jungkook Dreamy Set', 5)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="jisoo.jpg" alt="Jisoo Pink Bloom">
+                <h3>Jisoo Pink Bloom</h3>
+                <p>$4</p>
+                <button onclick="addToCart('Jisoo Pink Bloom', 4)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="straykids.jpg" alt="Stray Kids Glitter Pack">
+                <h3>Stray Kids Glitter Pack</h3>
+                <p>$6</p>
+                <button onclick="addToCart('Stray Kids Glitter Pack', 6)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="eclipse.jpg" alt="The Eclipse Couple">
+                <h3>The Eclipse Couple</h3>
+                <p>$5</p>
+                <button onclick="addToCart('The Eclipse Couple', 5)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="kinnporsche.jpg" alt="KinnPorsche Set">
+                <h3>KinnPorsche Set</h3>
+                <p>$7</p>
+                <button onclick="addToCart('KinnPorsche Set', 7)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="semantic.jpg" alt="Semantic Error Pair">
+                <h3>Semantic Error Pair</h3>
+                <p>$4</p>
+                <button onclick="addToCart('Semantic Error Pair', 4)">Add to Cart</button>
+            </div>
+        </div>
     </main>
 </body>
 </html>
