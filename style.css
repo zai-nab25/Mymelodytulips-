@@ -1,0 +1,17 @@
+body {
+    background-color: #ffe6f0;
+    font-family: 'Comic Sans MS', cursive;
+    color: #ff69b4;
+    text-align: center;
+    padding: 20px;
+}
+.logo {
+    width: 120px;
+    border-radius: 20px;
+}
+header {
+    background-color: #fff0f5;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #ffb6c1;
+}
