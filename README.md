@@ -1,2 +1,2 @@
 # Mymelodytulips-
-My melody themes photocard shop
+My melody themed photocard shop
